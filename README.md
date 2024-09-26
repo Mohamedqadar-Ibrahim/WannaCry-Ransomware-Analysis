@@ -39,7 +39,7 @@ In the static analysis, I investigated the file structure of the ransomware with
 ### **Step 1: Identifying File Type**
 Using **HxD**, I identified the file's header as `MZ`, confirming that it was an executable (EXE) file.
 
-![HxD Screenshot](screenshots/HxD%20Editor%20screenshot.PNG)
+![HxD Screenshot](screenshots/HxD%20Editor%20Screenshot.PNG)
 
 ### **Step 2: Confirming File Type with pestudio**
 I used **pestudio** to cross-check the file type. The tool confirmed the presence of the `MZ` header, indicating an executable file.
