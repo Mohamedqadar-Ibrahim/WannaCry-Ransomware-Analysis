@@ -1,10 +1,10 @@
-# **WannaCry-Ransomware-Analysis**
+# **💻 WannaCry-Ransomware-Analysis**
 
 **A personal case study analyzing the WannaCry ransomware using static and dynamic malware analysis techniques.**
 
 ---
 
-## **Overview**
+## **📖 Overview**
 
 This project aims to analyze the infamous **WannaCry ransomware attack**, which affected over 200,000 machines globally in 2017. Using both static and dynamic analysis, I investigated the malware's behavior, identified the tools used to carry out the attack, and explored ways to mitigate such threats in the future.
 
@@ -12,7 +12,7 @@ This case study serves as a hands-on exploration of malware analysis techniques,
 
 ---
 
-## **Objective**
+## **🎯 Objective**
 
 The primary objective of this project was to:
 1. **Identify the key behaviors and characteristics** of WannaCry ransomware through forensic tools.
@@ -22,7 +22,7 @@ The primary objective of this project was to:
 
 ---
 
-## **Tools Used**
+## **🛠️ Tools Used**
 - **HxD (Hex Editor)**: For binary analysis of the ransomware file.
 - **pestudio**: For further confirmation of the file type.
 - **HashCalc**: For creating a hash of the ransomware file to verify its integrity.
@@ -32,7 +32,7 @@ The primary objective of this project was to:
 
 ---
 
-## **1. Static Analysis**
+## **🔍 1. Static Analysis**
 
 In the static analysis, I investigated the file structure of the ransomware without executing it to understand its properties.
 
@@ -60,7 +60,7 @@ I uploaded the hash to **VirusTotal**, where it was flagged as malicious by 67 o
 
 ---
 
-## **2. Dynamic Analysis**
+## **⚙️ 2. Dynamic Analysis**
 
 Dynamic analysis was conducted by running the malware in a controlled environment (VM) to observe its runtime behavior.
 
@@ -81,7 +81,7 @@ Process Hacker revealed the ransom demand, which instructed victims to send **£
 
 ---
 
-## **Findings and Insights**
+## **🔑 Findings and Insights**
 
 The WannaCry ransomware is a highly destructive piece of malware, utilizing a Windows vulnerability (EternalBlue) to spread rapidly across networks. The static and dynamic analyses revealed the following key behaviors:
 
@@ -91,7 +91,7 @@ The WannaCry ransomware is a highly destructive piece of malware, utilizing a Wi
 
 ---
 
-## **Recommendations**
+## **🛡️ Recommendations**
 
 To mitigate similar ransomware threats, I recommend the following strategies:
 
@@ -102,6 +102,6 @@ To mitigate similar ransomware threats, I recommend the following strategies:
 
 ---
 
-## **Conclusion**
+## **🏁 Conclusion**
 
 The WannaCry ransomware attack demonstrates the devastating impact that unpatched vulnerabilities can have on organizations. Through static and dynamic analysis, I gained insights into how the malware operates and how it can be mitigated. This case study serves as a foundational exploration of malware analysis, providing valuable lessons for protecting against future ransomware attacks.
