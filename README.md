@@ -57,7 +57,6 @@ To automate part of the static analysis process, I created a Python script to ge
 I uploaded the hash to **VirusTotal**, where it was flagged as malicious by 67 out of 71 antivirus engines. VirusTotal classified it under the **"ransomware.wannacryptor"** tag.
 
 ![VirusTotal Screenshot](screenshots/VirusTotal%20Screenshot.PNG)
-*(Replace this text with your VirusTotal results screenshot)*
 
 ---
 
