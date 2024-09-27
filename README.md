@@ -71,14 +71,12 @@ Upon execution, the ransomware displayed a pop-up window, demanding a ransom to 
 ### **Step 2: Monitoring Processes**
 Using **Process Hacker**, I monitored the malware’s behavior. It spawned several processes, including `wanadecryptor` and `DiskPart`, which were consistent with the malware signatures detected earlier.
 
-![Process Hacker Screenshot](path-to-image)  
-*(Replace this text with your Process Hacker screenshot)*
+![ProcessHacker Screenshot](screenshots/ProcessHacker%20Screenshot.PNG)
 
 ### **Step 3: Analyzing Strings**
 Process Hacker revealed the ransom demand, which instructed victims to send **£300 worth of Bitcoin** to a specific address.
 
-![Process Hacker Strings Screenshot](path-to-image)  
-*(Replace this text with your strings analysis screenshot)*
+![ProcessHacker Strings Screenshot](screenshots/Strings%20Analysis%20Screenshot.PNG)
 
 ---
 
