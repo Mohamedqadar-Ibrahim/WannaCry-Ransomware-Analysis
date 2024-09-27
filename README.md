@@ -23,12 +23,13 @@ The primary objective of this project was to:
 ---
 
 ## **🛠️ Tools Used**
-- **HxD (Hex Editor)**: For binary analysis of the ransomware file.
-- **pestudio**: For further confirmation of the file type.
-- **HashCalc**: For creating a hash of the ransomware file to verify its integrity.
-- **VirusTotal**: For uploading and analyzing the file’s hash to identify its malware signature.
-- **Process Hacker**: For monitoring the ransomware’s processes during execution.
-- **Virtual Machine (VM)**: A controlled environment for dynamic analysis.
+| Tool            | Purpose                                                                 |
+|-----------------|-------------------------------------------------------------------------|
+| **HxD**         | Binary analysis of the ransomware file                                  |
+| **pestudio**    | Further confirmation of the file type                                   |
+| **HashCalc**    | For creating a hash of the ransomware file to verify its integrity       |
+| **Process Hacker** | Monitoring the ransomware's processes during execution               |
+| **Virtual Machine** | Controlled environment for dynamic analysis 
 
 ---
 
