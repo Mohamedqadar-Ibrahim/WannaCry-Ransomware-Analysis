@@ -16,7 +16,7 @@ This case study serves as a hands-on exploration of malware analysis techniques,
 
 The primary objective of this project was to:
 1. **Identify the key behaviors and characteristics** of WannaCry ransomware through forensic tools.
-2. **Analyze the static properties** of the malware.
+2. **Analyse the static properties** of the malware.
 3. **Execute a dynamic analysis** to observe how the ransomware behaves in real-time within a controlled environment.
 4. **Provide recommendations** on preventing and mitigating similar attacks.
 
@@ -84,7 +84,7 @@ Process Hacker revealed the ransom demand, which instructed victims to send **£
 
 ## **🔑 Findings and Insights**
 
-The WannaCry ransomware is a highly destructive piece of malware, utilizing a Windows vulnerability (EternalBlue) to spread rapidly across networks. The static and dynamic analyses revealed the following key behaviors:
+The WannaCry ransomware is a highly destructive piece of malware, utilising a Windows vulnerability (EternalBlue) to spread rapidly across networks. The static and dynamic analyses revealed the following key behaviors:
 
 - The executable file spreads by exploiting vulnerabilities in unpatched systems.
 - It encrypts user files, demanding ransom in Bitcoin for their recovery.
@@ -97,7 +97,7 @@ The WannaCry ransomware is a highly destructive piece of malware, utilizing a Wi
 To mitigate similar ransomware threats, I recommend the following strategies:
 
 1. **Regularly Apply Security Patches**: The vulnerability exploited by WannaCry (EternalBlue) had already been patched by Microsoft. Ensuring systems are up to date is critical in preventing such exploits.
-2. **Implement Backup Solutions**: Regular backups can help organizations recover quickly in case of an attack without needing to pay a ransom.
+2. **Implement Backup Solutions**: Regular backups can help organisations recover quickly in case of an attack without needing to pay a ransom.
 3. **Employee Training**: Educating staff about phishing emails and safe computing practices can reduce the likelihood of ransomware infection.
 4. **Use Robust Antivirus and Firewalls**: Comprehensive protection with antivirus and firewalls can detect and block ransomware before it executes.
 
@@ -105,4 +105,4 @@ To mitigate similar ransomware threats, I recommend the following strategies:
 
 ## **🏁 Conclusion**
 
-The WannaCry ransomware attack demonstrates the devastating impact that unpatched vulnerabilities can have on organizations. Through static and dynamic analysis, I gained insights into how the malware operates and how it can be mitigated. This case study serves as a foundational exploration of malware analysis, providing valuable lessons for protecting against future ransomware attacks.
+The WannaCry ransomware attack demonstrates the devastating impact that unpatched vulnerabilities can have on organisations. Through static and dynamic analysis, I gained insights into how the malware operates and how it can be mitigated. This case study serves as a foundational exploration of malware analysis, providing valuable lessons for protecting against future ransomware attacks.
