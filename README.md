@@ -44,8 +44,7 @@ Using **HxD**, I identified the file's header as `MZ`, confirming that it was an
 ### **Step 2: Confirming File Type with pestudio**
 I used **pestudio** to cross-check the file type. The tool confirmed the presence of the `MZ` header, indicating an executable file.
 
-![pestudio Screenshot](path-to-image)  
-*(Replace this text with your pestudio screenshot)*
+![pestudio Screenshot](screenshots/pestudio Screenshot.PNG)
 
 ### **Step 3: Generating Hash Value**
 Next, I generated a hash of the file using **HashCalc** to create a unique identifier. This hash value is essential for cross-referencing the file with malware databases.
