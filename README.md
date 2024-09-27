@@ -74,7 +74,7 @@ Using **Process Hacker**, I monitored the malware’s behavior. It spawned sever
 
 ![ProcessHacker Screenshot](screenshots/ProcessHacker%20Screenshot.PNG)
 
-### **Step 3: Analyzing Strings**
+### **Step 3: Analysing Strings**
 Process Hacker revealed the ransom demand, which instructed victims to send **£300 worth of Bitcoin** to a specific address.
 
 ![ProcessHacker Strings Screenshot](screenshots/Strings%20Analysis%20Screenshot.PNG)
