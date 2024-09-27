@@ -6,7 +6,7 @@
 
 ## **📖 Overview**
 
-This project aims to analyze the infamous **WannaCry ransomware attack**, which affected over 200,000 machines globally in 2017. Using both static and dynamic analysis, I investigated the malware's behavior, identified the tools used to carry out the attack, and explored ways to mitigate such threats in the future.
+This project aims to analyse the infamous **WannaCry ransomware attack**, which affected over 200,000 machines globally in 2017. Using both static and dynamic analysis, I investigated the malware's behavior, identified the tools used to carry out the attack, and explored ways to mitigate such threats in the future.
 
 This case study serves as a hands-on exploration of malware analysis techniques, including file examination, hashing, and sandboxing, to better understand the lifecycle of ransomware attacks and how to protect against them.
 
