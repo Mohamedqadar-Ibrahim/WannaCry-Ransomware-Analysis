@@ -49,9 +49,9 @@ I used **pestudio** to cross-check the file type. The tool confirmed the presenc
 ### **Step 3: Generating Hash Value**
 To automate part of the static analysis process, I created a Python script to generate the SHA256 hash of the file. This eliminates the need to manually generate the hash.
 
-Python Script: ![Hash Script Screenshot](screenshots/Hash%20Script%20Screenshot.PNG)
+![Hash Script Screenshot](screenshots/Hash%20Script%20Screenshot.PNG)
 
-Output: ![Hash Output Screenshot](screenshots/Hash%20Output%20Screenshot.PNG)
+![Hash Output Screenshot](screenshots/Hash%20Output%20Screenshot.PNG)
 
 ### **Step 4: Verifying with VirusTotal**
 I uploaded the hash to **VirusTotal**, where it was flagged as malicious by 67 out of 71 antivirus engines. VirusTotal classified it under the **"ransomware.wannacryptor"** tag.
