@@ -1,6 +1,6 @@
 # **💻 WannaCry-Ransomware-Analysis**
 
-**A personal case study analyzing the WannaCry ransomware using static and dynamic malware analysis techniques.**
+**A personal case study analysing the WannaCry ransomware using static and dynamic malware analysis techniques.**
 
 ---
 
