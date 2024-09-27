@@ -49,13 +49,12 @@ I used **pestudio** to cross-check the file type. The tool confirmed the presenc
 ### **Step 3: Generating Hash Value**
 Next, I generated a hash of the file using **HashCalc** to create a unique identifier. This hash value is essential for cross-referencing the file with malware databases.
 
-![HashCalc Screenshot](path-to-image)  
-*(Replace this text with your HashCalc screenshot)*
+![HashCalc Screenshot](screenshots/HashCalc%20Screenshot.PNG)
 
 ### **Step 4: Verifying with VirusTotal**
 I uploaded the hash to **VirusTotal**, where it was flagged as malicious by 67 out of 71 antivirus engines. VirusTotal classified it under the **"ransomware.wannacryptor"** tag.
 
-![VirusTotal Screenshot](path-to-image)  
+![VirusTotal Screenshot](screenshots/VirusTotal%20Screenshot.PNG)
 *(Replace this text with your VirusTotal results screenshot)*
 
 ---
@@ -67,8 +66,7 @@ Dynamic analysis was conducted by running the malware in a controlled environmen
 ### **Step 1: Executing the Ransomware in a VM**
 Upon execution, the ransomware displayed a pop-up window, demanding a ransom to decrypt the affected files. The message identified itself as **"Wanna Decrypt0r 2.0"**.
 
-![WannaCry Execution Screenshot](path-to-image)  
-*(Replace this text with your screenshot of the ransomware pop-up window)*
+![WannaCry.exe Screenshot](screenshots/WannaCry.exe%20Screenshot.PNG)
 
 ### **Step 2: Monitoring Processes**
 Using **Process Hacker**, I monitored the malware’s behavior. It spawned several processes, including `wanadecryptor` and `DiskPart`, which were consistent with the malware signatures detected earlier.
